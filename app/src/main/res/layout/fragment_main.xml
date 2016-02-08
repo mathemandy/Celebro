@@ -1,0 +1,19 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="match_parent"
+    tools:context="celebro.com.example.celebro.MainActivityFragment"
+    tools:showIn="@layout/activity_main">
+
+    <GridView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/Grid_view_item"
+        android:columnWidth="160dp"
+        android:numColumns="auto_fit"
+
+        android:gravity="center"
+        />
+
+</LinearLayout>
