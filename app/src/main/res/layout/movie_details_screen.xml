@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include
+            android:id="@+id/layout_details"
+            layout="@layout/layout_details_content"
+            android:visibility="visible" />
+        <ProgressBar
+            android:id="@+id/loading_spinner"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_centerHorizontal="true"/>
+        <include
+            android:id="@+id/error_screen"
+            layout="@layout/layout_error_screen"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+</android.support.v4.widget.NestedScrollView>
